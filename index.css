@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+input {
+  background-color: palegoldenrod;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  font-family: inherit;
+  padding: 1rem;
+  min-width: 300px;
+}
+
+input:focus {
+  outline-color: none;
+}
+
+.weather {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weather h2 {
+  display: flex;
+  align-content: center;
+  margin-bottom: 0;
+}
